@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="agregar registro y eliminar, seleccionar fechas" skipped="0" tests="3" time="9.27" timestamp="2022-03-07 04:06:18"><testcase name="nuevo registro"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 96&#10;Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SQAMED-SQA1937', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00DF6903+2517251]&#10;&#9;Ordinal0 [0x00D8F8E1+2095329]&#10;&#9;Ordinal0 [0x00C92848+1058888]&#10;&#9;Ordinal0 [0x00CB0B9D+1182621]&#10;&#9;Ordinal0 [0x00CACA60+1165920]&#10;&#9;Ordinal0 [0x00CAA2CF+1155791]&#10;&#9;Ordinal0 [0x00CDAAAF+1354415]&#10;&#9;Ordinal0 [0x00CDA71A+1353498]&#10;&#9;Ordinal0 [0x00CD639B+1336219]&#10;&#9;Ordinal0 [0x00CB27A7+1189799]&#10;&#9;Ordinal0 [0x00CB3609+1193481]&#10;&#9;GetHandleVerifier [0x00F85904+1577972]&#10;&#9;GetHandleVerifier [0x01030B97+2279047]&#10;&#9;GetHandleVerifier [0x00E86D09+534521]&#10;&#9;GetHandleVerifier [0x00E85DB9+530601]&#10;&#9;Ordinal0 [0x00D94FF9+2117625]&#10;&#9;Ordinal0 [0x00D998A8+2136232]&#10;&#9;Ordinal0 [0x00D999E2+2136546]&#10;&#9;Ordinal0 [0x00DA3541+2176321]&#10;&#9;BaseThreadInitThunk [0x760BFA29+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77AE7A9E+286]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77AE7A6E+238]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-SQA1937', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DF6903+2517251]
+	Ordinal0 [0x00D8F8E1+2095329]
+	Ordinal0 [0x00C92848+1058888]
+	Ordinal0 [0x00CB0B9D+1182621]
+	Ordinal0 [0x00CACA60+1165920]
+	Ordinal0 [0x00CAA2CF+1155791]
+	Ordinal0 [0x00CDAAAF+1354415]
+	Ordinal0 [0x00CDA71A+1353498]
+	Ordinal0 [0x00CD639B+1336219]
+	Ordinal0 [0x00CB27A7+1189799]
+	Ordinal0 [0x00CB3609+1193481]
+	GetHandleVerifier [0x00F85904+1577972]
+	GetHandleVerifier [0x01030B97+2279047]
+	GetHandleVerifier [0x00E86D09+534521]
+	GetHandleVerifier [0x00E85DB9+530601]
+	Ordinal0 [0x00D94FF9+2117625]
+	Ordinal0 [0x00D998A8+2136232]
+	Ordinal0 [0x00D999E2+2136546]
+	Ordinal0 [0x00DA3541+2176321]
+	BaseThreadInitThunk [0x760BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A6E+238]
+). See below for more details.</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-SQA1937', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DF6903+2517251]
+	Ordinal0 [0x00D8F8E1+2095329]
+	Ordinal0 [0x00C92848+1058888]
+	Ordinal0 [0x00CB0B9D+1182621]
+	Ordinal0 [0x00CACA60+1165920]
+	Ordinal0 [0x00CAA2CF+1155791]
+	Ordinal0 [0x00CDAAAF+1354415]
+	Ordinal0 [0x00CDA71A+1353498]
+	Ordinal0 [0x00CD639B+1336219]
+	Ordinal0 [0x00CB27A7+1189799]
+	Ordinal0 [0x00CB3609+1193481]
+	GetHandleVerifier [0x00F85904+1577972]
+	GetHandleVerifier [0x01030B97+2279047]
+	GetHandleVerifier [0x00E86D09+534521]
+	GetHandleVerifier [0x00E85DB9+530601]
+	Ordinal0 [0x00D94FF9+2117625]
+	Ordinal0 [0x00D998A8+2136232]
+	Ordinal0 [0x00D999E2+2136546]
+	Ordinal0 [0x00DA3541+2176321]
+	BaseThreadInitThunk [0x760BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A6E+238]
+). See below for more details.&#13;
+Step.RegistroSteps.abrirNavegador(RegistroSteps.java:24)&#13;
+com.demoQA.Runners.stepDefinitions.retoStepDefinitions.jorseEstaEnElPortalWeb(retoStepDefinitions.java:22)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="nuevas fechas"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 96&#10;Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SQAMED-SQA1937', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00DF6903+2517251]&#10;&#9;Ordinal0 [0x00D8F8E1+2095329]&#10;&#9;Ordinal0 [0x00C92848+1058888]&#10;&#9;Ordinal0 [0x00CB0B9D+1182621]&#10;&#9;Ordinal0 [0x00CACA60+1165920]&#10;&#9;Ordinal0 [0x00CAA2CF+1155791]&#10;&#9;Ordinal0 [0x00CDAAAF+1354415]&#10;&#9;Ordinal0 [0x00CDA71A+1353498]&#10;&#9;Ordinal0 [0x00CD639B+1336219]&#10;&#9;Ordinal0 [0x00CB27A7+1189799]&#10;&#9;Ordinal0 [0x00CB3609+1193481]&#10;&#9;GetHandleVerifier [0x00F85904+1577972]&#10;&#9;GetHandleVerifier [0x01030B97+2279047]&#10;&#9;GetHandleVerifier [0x00E86D09+534521]&#10;&#9;GetHandleVerifier [0x00E85DB9+530601]&#10;&#9;Ordinal0 [0x00D94FF9+2117625]&#10;&#9;Ordinal0 [0x00D998A8+2136232]&#10;&#9;Ordinal0 [0x00D999E2+2136546]&#10;&#9;Ordinal0 [0x00DA3541+2176321]&#10;&#9;BaseThreadInitThunk [0x760BFA29+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77AE7A9E+286]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77AE7A6E+238]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-SQA1937', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DF6903+2517251]
+	Ordinal0 [0x00D8F8E1+2095329]
+	Ordinal0 [0x00C92848+1058888]
+	Ordinal0 [0x00CB0B9D+1182621]
+	Ordinal0 [0x00CACA60+1165920]
+	Ordinal0 [0x00CAA2CF+1155791]
+	Ordinal0 [0x00CDAAAF+1354415]
+	Ordinal0 [0x00CDA71A+1353498]
+	Ordinal0 [0x00CD639B+1336219]
+	Ordinal0 [0x00CB27A7+1189799]
+	Ordinal0 [0x00CB3609+1193481]
+	GetHandleVerifier [0x00F85904+1577972]
+	GetHandleVerifier [0x01030B97+2279047]
+	GetHandleVerifier [0x00E86D09+534521]
+	GetHandleVerifier [0x00E85DB9+530601]
+	Ordinal0 [0x00D94FF9+2117625]
+	Ordinal0 [0x00D998A8+2136232]
+	Ordinal0 [0x00D999E2+2136546]
+	Ordinal0 [0x00DA3541+2176321]
+	BaseThreadInitThunk [0x760BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A6E+238]
+). See below for more details.</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-SQA1937', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DF6903+2517251]
+	Ordinal0 [0x00D8F8E1+2095329]
+	Ordinal0 [0x00C92848+1058888]
+	Ordinal0 [0x00CB0B9D+1182621]
+	Ordinal0 [0x00CACA60+1165920]
+	Ordinal0 [0x00CAA2CF+1155791]
+	Ordinal0 [0x00CDAAAF+1354415]
+	Ordinal0 [0x00CDA71A+1353498]
+	Ordinal0 [0x00CD639B+1336219]
+	Ordinal0 [0x00CB27A7+1189799]
+	Ordinal0 [0x00CB3609+1193481]
+	GetHandleVerifier [0x00F85904+1577972]
+	GetHandleVerifier [0x01030B97+2279047]
+	GetHandleVerifier [0x00E86D09+534521]
+	GetHandleVerifier [0x00E85DB9+530601]
+	Ordinal0 [0x00D94FF9+2117625]
+	Ordinal0 [0x00D998A8+2136232]
+	Ordinal0 [0x00D999E2+2136546]
+	Ordinal0 [0x00DA3541+2176321]
+	BaseThreadInitThunk [0x760BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A6E+238]
+). See below for more details.&#13;
+Step.RegistroSteps.abrirNavegador(RegistroSteps.java:24)&#13;
+com.demoQA.Runners.stepDefinitions.retoStepDefinitions.jorseEstaEnElPortalWeb(retoStepDefinitions.java:22)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Interactuar con ventanas emergentes"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 96&#10;Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SQAMED-SQA1937', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00DF6903+2517251]&#10;&#9;Ordinal0 [0x00D8F8E1+2095329]&#10;&#9;Ordinal0 [0x00C92848+1058888]&#10;&#9;Ordinal0 [0x00CB0B9D+1182621]&#10;&#9;Ordinal0 [0x00CACA60+1165920]&#10;&#9;Ordinal0 [0x00CAA2CF+1155791]&#10;&#9;Ordinal0 [0x00CDAAAF+1354415]&#10;&#9;Ordinal0 [0x00CDA71A+1353498]&#10;&#9;Ordinal0 [0x00CD639B+1336219]&#10;&#9;Ordinal0 [0x00CB27A7+1189799]&#10;&#9;Ordinal0 [0x00CB3609+1193481]&#10;&#9;GetHandleVerifier [0x00F85904+1577972]&#10;&#9;GetHandleVerifier [0x01030B97+2279047]&#10;&#9;GetHandleVerifier [0x00E86D09+534521]&#10;&#9;GetHandleVerifier [0x00E85DB9+530601]&#10;&#9;Ordinal0 [0x00D94FF9+2117625]&#10;&#9;Ordinal0 [0x00D998A8+2136232]&#10;&#9;Ordinal0 [0x00D999E2+2136546]&#10;&#9;Ordinal0 [0x00DA3541+2176321]&#10;&#9;BaseThreadInitThunk [0x760BFA29+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77AE7A9E+286]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77AE7A6E+238]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-SQA1937', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DF6903+2517251]
+	Ordinal0 [0x00D8F8E1+2095329]
+	Ordinal0 [0x00C92848+1058888]
+	Ordinal0 [0x00CB0B9D+1182621]
+	Ordinal0 [0x00CACA60+1165920]
+	Ordinal0 [0x00CAA2CF+1155791]
+	Ordinal0 [0x00CDAAAF+1354415]
+	Ordinal0 [0x00CDA71A+1353498]
+	Ordinal0 [0x00CD639B+1336219]
+	Ordinal0 [0x00CB27A7+1189799]
+	Ordinal0 [0x00CB3609+1193481]
+	GetHandleVerifier [0x00F85904+1577972]
+	GetHandleVerifier [0x01030B97+2279047]
+	GetHandleVerifier [0x00E86D09+534521]
+	GetHandleVerifier [0x00E85DB9+530601]
+	Ordinal0 [0x00D94FF9+2117625]
+	Ordinal0 [0x00D998A8+2136232]
+	Ordinal0 [0x00D999E2+2136546]
+	Ordinal0 [0x00DA3541+2176321]
+	BaseThreadInitThunk [0x760BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A6E+238]
+). See below for more details.</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 99.0.4844.51 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SQAMED-SQA1937', ip: '192.168.1.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DF6903+2517251]
+	Ordinal0 [0x00D8F8E1+2095329]
+	Ordinal0 [0x00C92848+1058888]
+	Ordinal0 [0x00CB0B9D+1182621]
+	Ordinal0 [0x00CACA60+1165920]
+	Ordinal0 [0x00CAA2CF+1155791]
+	Ordinal0 [0x00CDAAAF+1354415]
+	Ordinal0 [0x00CDA71A+1353498]
+	Ordinal0 [0x00CD639B+1336219]
+	Ordinal0 [0x00CB27A7+1189799]
+	Ordinal0 [0x00CB3609+1193481]
+	GetHandleVerifier [0x00F85904+1577972]
+	GetHandleVerifier [0x01030B97+2279047]
+	GetHandleVerifier [0x00E86D09+534521]
+	GetHandleVerifier [0x00E85DB9+530601]
+	Ordinal0 [0x00D94FF9+2117625]
+	Ordinal0 [0x00D998A8+2136232]
+	Ordinal0 [0x00D999E2+2136546]
+	Ordinal0 [0x00DA3541+2176321]
+	BaseThreadInitThunk [0x760BFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AE7A6E+238]
+). See below for more details.&#13;
+Step.RegistroSteps.abrirNavegador(RegistroSteps.java:24)&#13;
+com.demoQA.Runners.stepDefinitions.retoStepDefinitions.jorseEstaEnElPortalWeb(retoStepDefinitions.java:22)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
